@@ -19,10 +19,10 @@ This is an application created for the algoTest demo project. The main motive of
 
 ## Getting started
 
-- Clone the project using <git clone https://github.com/sumancrest0001/algotest>
-- Switch to the <master> branch
-- Run <cd todo-list> from the current directory.
-- Run <npm install> to have all the needed packages to run the app.
+- Clone the project using `git clone https://github.com/sumancrest0001/algotest`
+- Switch to the `master` branch
+- Run `cd todo-list` from the current directory.
+- Run `npm install` to have all the needed packages to run the app.
 - Run webpack with <npm run build> command
 
 ## Authors
