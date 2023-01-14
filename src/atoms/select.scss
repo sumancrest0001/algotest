@@ -1,0 +1,11 @@
+.select-container {
+  display: flex;
+  flex-direction: column;
+
+  .select {
+    background-color: $white-color;
+    border-radius: 100vh;
+    padding: 6px 20px 6px 6px;
+    border: none;
+  }
+}

@@ -1,0 +1,47 @@
+.single-leg {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: $gray-5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+
+  .additional-features {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+
+    .strike-parameters {
+      margin-top: 1rem;
+      display: flex;
+      gap: 1rem;
+    }
+  }
+
+  .copy-icon {
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: $white-color;
+    border-radius: 50%;
+    top: 20px;
+    right: -12px;
+  }
+  .delete-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: -12px;
+    cursor: pointer;
+    top: -12px;
+  }
+}

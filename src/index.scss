@@ -1,0 +1,62 @@
+$primary-color: #375a9e;
+$white-color: #fff;
+$black-color: #3f3f3f;
+$gray-1: #ced4da;
+$gray-2: #e6f2fd;
+$gray-5: #efefef;
+$background-color: #f6f6f6;
+$secondary-color: #9dc34a;
+$tertiary-color: #ff5a60;
+$form-background: #efefef;
+$text-danger: #f07777;
+$font-color: #000;
+$separator-color: #c7c7c7;
+$body-padding: 0 64px;
+$section-padding: 64px;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background-color;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bold-label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.active {
+  pointer-events: all;
+  opacity: 1;
+}
+
+.in-active {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+input[type='checkbox'] {
+  accent-color: $primary-color;
+}
+
+@import './app.scss';
+@import './atoms/input.scss';
+@import './atoms/button.scss';
+@import './atoms/select.scss';
+@import './components/builder.scss';
+@import './components/single-leg.scss';
