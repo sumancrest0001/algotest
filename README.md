@@ -25,6 +25,10 @@ This is an application created for the algoTest demo project. The main motive of
 - Run `npm install` to have all the needed packages to run the app.
 - Run webpack with <npm run build> command
 
+## Demo Link
+
+https://www.loom.com/share/b179cdf5e64e4f3ba3652ed31e3b4bb2
+
 ## Authors
 
 👤 **Suman Shrestha**
